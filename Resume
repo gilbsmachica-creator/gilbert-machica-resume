@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert Machica | Senior IT Operations & Technical Process Specialist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        @media print {
+            .no-print { display: none; }
+            .print-full { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Navigation Header (no-print) -->
+    <header class="no-print sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur-md">
+        <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-2">
+                <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-600 font-bold text-white shadow-sm">
+                    GM
+                </div>
+                <span class="text-sm font-semibold tracking-wide text-slate-900 uppercase">Profile Portfolio</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="mailto:gilbs.machica@gmail.com" class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-blue-600 transition">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    Contact
+                </a>
+                <button onclick="window.print()" class="inline-flex items-center gap-1.5 rounded-md bg-slate-900 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 transition">
+                    <i data-lucide="printer" class="w-4 h-4"></i>
+                    Print/Save PDF
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 print-full">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-12 print-full">
+            
+            <!-- Left Sticky Sidebar (No-print structural container) -->
+            <aside class="no-print lg:col-span-4 lg:sticky lg:top-24 lg:h-fit space-y-6">
+                <!-- Profile Card -->
+                <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                    <h1 class="text-2xl font-bold tracking-tight text-slate-900">Gilbert Machica</h1>
+                    <p class="mt-1.5 text-sm font-medium text-blue-600">Senior IT Operations & Technical Process Specialist</p>
+                    <p class="mt-1 text-xs text-slate-500">ITIL v3 Certified • 18 Years Experience</p>
+                    
+                    <hr class="my-4 border-slate-100">
+                    
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center gap-3 text-slate-600">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-slate-400 shrink-0"></i>
+                            <span>Lipa City, Batangas, Philippines</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-600">
+                            <i data-lucide="phone" class="w-4 h-4 text-slate-400 shrink-0"></i>
+                            <a href="tel:+639xx xxx xx26" class="hover:text-blue-600 transition">+639xx xxx xx26</a>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-600">
+                            <i data-lucide="mail" class="w-4 h-4 text-slate-400 shrink-0"></i>
+                            <a href="mailto:gilbertqmachica@gmail.com" class="hover:text-blue-600 transition">gilbertqmachica@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-3 text-slate-600">
+                            <i data-lucide="linkedin" class="w-4 h-4 text-slate-400 shrink-0"></i>
+                            <a href="https://linkedin.com/in/gilbertmachica" target="_blank" class="hover:text-blue-600 transition">linkedin.com/in/gilbertmachica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Quick-Links -->
+                <nav class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+                    <ul class="space-y-1 text-sm font-medium text-slate-600">
+                        <li><a href="#summary" class="block rounded-md px-3 py-2 hover:bg-slate-50 hover:text-blue-600 transition">Summary</a></li>
+                        <li><a href="#skills" class="block rounded-md px-3 py-2 hover:bg-slate-50 hover:text-blue-600 transition">Core Stack</a></li>
+                        <li><a href="#experience" class="block rounded-md px-3 py-2 hover:bg-slate-50 hover:text-blue-600 transition">Professional History</a></li>
+                        <li><a href="#education" class="block rounded-md px-3 py-2 hover:bg-slate-50 hover:text-blue-600 transition">Education & Credentials</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Right Main Content Area -->
+            <main class="lg:col-span-8 space-y-8 print-full">
+                
+                <!-- Print Header (Visible ONLY during print setup) -->
+                <div class="hidden print:block border-b border-slate-300 pb-4 mb-6">
+                    <h1 class="text-3xl font-bold text-slate-900">Gilbert Machica</h1>
+                    <p class="text-blue-700 font-semibold text-sm">ITIL v3 Certified Senior IT Process & Service Delivery Specialist</p>
+                    <div class="mt-2 grid grid-cols-2 gap-2 text-xs text-slate-600">
+                        <div>Lipa City, Batangas, Philippines</div>
+                        <div>Email: gilbertqmachica@gmail.com</div>
+                        <div>Phone: +639xx xxx xx26</div>
+                        <div>LinkedIn: linkedin.com/in/gilbertmachica</div>
+                    </div>
+                </div>
+
+                <!-- Professional Summary -->
+                <section id="summary" class="scroll-mt-24 rounded-xl border border-slate-200 bg-white p-6 shadow-sm print:border-none print:p-0 print:shadow-none">
+                    <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
+                        <i data-lucide="file-text" class="w-5 h-5 text-blue-600 no-print"></i>
+                        Professional Summary
+                    </h2>
+                    <p class="mt-4 text-slate-600 text-sm leading-relaxed text-justify">
+                        ITIL v3 Foundation-certified IT Operations and Service Delivery professional with 18 years of progressive experience managing critical incident pathways, high-tier technical resolution queues, and knowledge engineering frameworks. Proven track record acting as a senior engineering liaison, translating complex application and structural anomalies into clear, actionable technical specifications to drive rapid resolution. Expert in designing, auditing, and scaling structured technical documentation (SOPs) to upskill global support ecosystems. Adept at using log observability tools (Kibana) and frontend diagnostic frameworks (Chrome DevTools) to conduct root-cause analysis on systemic system behaviors. Strong background in stakeholder relationship governance, comfortably balancing operational targets and customer-centric technical solutions.
+                    </p>
+                </section>
+
+                <!-- Technical Hard Skills & Core Competencies -->
+                <section id="skills" class="scroll-mt-24 rounded-xl border border-slate-200 bg-white p-6 shadow-sm print:border-none print:p-0 print:shadow-none">
+                    <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
+                        <i data-lucide="cpu" class="w-5 h-5 text-blue-600 no-print"></i>
+                        Technical Hard Skills & Core Competencies
+                    </h2>
+                    
+                    <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                        <div class="rounded-lg bg-slate-50 p-4 print:bg-white print:p-0">
+                            <h3 class="font-semibold text-slate-900 flex items-center gap-1.5 mb-2">
+                                <span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span> Incident Triage & Resolution
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-normal">Final-tier Escalation Ownership, High-Priority Incident Management, Root-Cause Analysis (RCA), Post-Incident Reviews (PIR), ITIL Framework Governance.</p>
+                        </div>
+
+                        <div class="rounded-lg bg-slate-50 p-4 print:bg-white print:p-0">
+                            <h3 class="font-semibold text-slate-900 flex items-center gap-1.5 mb-2">
+                                <span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span> Engineering Diagnostics
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-normal">Telemetry Analysis via Kibana, Network and API Packet Tracing via Chrome DevTools, Data Log Interpretation, Interdependent Process Mapping.</p>
+                        </div>
+
+                        <div class="rounded-lg bg-slate-50 p-4 print:bg-white print:p-0">
+                            <h3 class="font-semibold text-slate-900 flex items-center gap-1.5 mb-2">
+                                <span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span> Knowledge Architecture & TTT
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-normal">Technical SOP Development, Runbook Engineering via Confluence, Content Auditing, Train-the-Trainer (TTT) Delivery, Knowledge Management Frameworks.</p>
+                        </div>
+
+                        <div class="rounded-lg bg-slate-50 p-4 print:bg-white print:p-0">
+                            <h3 class="font-semibold text-slate-900 flex items-center gap-1.5 mb-2">
+                                <span class="h-1.5 w-1.5 rounded-full bg-blue-600"></span> Platforms & Identity Access
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-normal">Identity & Access Management (Azure AD, SailPoint IIQ), Mobile Device Management (AirWatch), Microsoft 365, Google Workspace Enterprise.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Professional Experience -->
+                <section id="experience" class="scroll-mt-24 rounded-xl border border-slate-200 bg-white p-6 shadow-sm print:border-none print:p-0 print:shadow-none">
+                    <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3 mb-6">
+                        <i data-lucide="briefcase" class="w-5 h-5 text-blue-600 no-print"></i>
+                        Professional Experience
+                    </h2>
+
+                    <div class="relative border-l border-slate-200 pl-6 space-y-8 print:border-none print:pl-0 print:space-y-6">
+                        
+                        <!-- Card 1: Netflix -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Technology Experience Specialist</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">October 2023 – October 2025</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">Netflix Philippines Inc. | Makati City, Philippines</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Acted as a high-tier technical escalation point and application support partner for global studio teams, ensuring end-to-end resolution of complex platform issues.</li>
+                                <li>Conducted deep-dive root cause analysis (RCA) on ambiguous, systemic technical failures, translating telemetry into structured bugs for engineering and product teams to drive faster product improvements.</li>
+                                <li>Leveraged Chrome DevTools network protocols and Kibana log tracking to isolate performance anomalies, capture API errors, and analyze system datasets.</li>
+                                <li>Authored and maintained comprehensive troubleshooting documentation within internal knowledge bases, enabling frontline specialists and global teams to resolve issues during new tool releases.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 2: Milestone -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Remote Information Technology Service Desk</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">September 2020 – September 2023</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">Milestone Technologies Inc. | Remote</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Spearheaded operational documentation and process overhauls within Confluence, standardizing troubleshooting steps and training delivery frameworks for global cross-functional service desks.</li>
+                                <li>Managed advanced user identity and access lifecycles utilizing SailPoint IIQ, Azure Active Directory, and automated workflows, enforcing data governance parameters.</li>
+                                <li>Partnered with product enablement and change management groups to pilot, validate, and document upcoming corporate application releases and multi-vendor authentication features.</li>
+                                <li>Mentored and upskilled frontline technicians on platform nuances, developing operational guidelines and leading sync sessions to optimize customer journey metrics.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3: TELUS -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Service Desk Analyst</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">April 2017 – March 2019</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">TELUS International Philippines | Market Center</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Orchestrated ticket lifecycle management within corporate ITSM environments, ensuring precise categorization and escalation to specialized engineering resolver teams.</li>
+                                <li>Delivered technical solutions including identity administration, Active Directory management, and verification via command-line utility configurations (Putty).</li>
+                                <li>Managed multi-vendor authentication tokens and access policies to maintain high-quality compliance and data safety parameters.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 4: VXI -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Operations Supervisor</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">April 2015 – April 2017</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">VXI Global Philippines | Across Locations</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Led day-to-day operations and service delivery for technical support structures, driving a culture of continuous improvement and process standardization.</li>
+                                <li>Monitored operational ticket queues and performance matrices to ensure system uptime, service quality, and adherence to performance standards.</li>
+                                <li>Facilitated functional escalation paths between local support agents and high-level tier engineering groups to mitigate high-pressure service friction.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 5: AFNI -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Team Captain</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">November 2013 – November 2014</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">AFNI Philippines Inc. | Across Locations</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Coached and upskilled a dedicated team of support professionals on technical workflows, performance benchmarks, and tool navigation.</li>
+                                <li>Evaluated quality assurance trends to identify knowledge gaps, delivering targeted training sessions to normalize team resolution capabilities.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 6: eLoyalty -->
+                        <div class="relative print:break-inside-avoid">
+                            <span class="no-print absolute -left-[31px] top-0 flex h-4 w-4 items-center justify-center rounded-full bg-white border-2 border-blue-600"></span>
+                            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                                <h3 class="font-bold text-slate-900 text-base">Operations Supervisor GSC</h3>
+                                <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded md:mt-0 mt-1 w-fit print:bg-white print:border print:p-1">September 2004 – November 2013</span>
+                            </div>
+                            <p class="text-xs font-medium text-blue-600 mt-0.5">eLoyalty, a Teletech Company | Global Service Center</p>
+                            <ul class="mt-2.5 space-y-1.5 text-xs text-slate-600 list-disc pl-4 text-justify">
+                                <li>Governed end-to-end incident management and resource allocation across interdependent projects to optimize program efficiency and meet strategic objectives.</li>
+                                <li>Managed performance trends and analyzed data dashboards to design, execute, and scale operational workflows, ensuring compliance with delivery standards.</li>
+                                <li>Collaborated directly with senior client stakeholders and vendors to align infrastructure roadmaps, resource deployment, and operational procedures with overarching corporate requirements.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Education & Certifications -->
+                <section id="education" class="scroll-mt-24 rounded-xl border border-slate-200 bg-white p-6 shadow-sm print:break-inside-avoid print:border-none print:p-0 print:shadow-none">
+                    <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
+                        <i data-lucide="graduation-cap" class="w-5 h-5 text-blue-600 no-print"></i>
+                        Education & Certifications
+                    </h2>
+                    
+                    <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                        <!-- Education Block -->
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-sm tracking-wide uppercase text-slate-500 mb-3">Academic Foundation</h3>
+                            <div class="space-y-4">
+                                <div>
+                                    <h4 class="font-semibold text-slate-900 text-xs">Bachelor of Arts in Communication Arts</h4>
+                                    <p class="text-xs text-slate-500">Kolehiyo ng Lunsod ng Lipa | 2019 – 2023</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-slate-900 text-xs">Bachelor of Science in Tourism</h4>
+                                    <p class="text-xs text-slate-500">University of Santo Tomas | 2001 – 2003</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certifications Block -->
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-sm tracking-wide uppercase text-slate-500 mb-3">Professional Credentials</h3>
+                            <div class="rounded-lg border border-slate-100 bg-slate-50 p-3 print:bg-white print:p-0 print:border-none">
+                                <h4 class="font-bold text-slate-900 text-xs">Exin ITIL Foundation Level v3</h4>
+                                <p class="text-xs font-medium text-blue-600 mt-0.5">Issued Mar 2012</p>
+                                <p class="text-[11px] text-slate-500 mt-1 font-mono">Credential ID: 252905571</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer Area (no-print) -->
+    <footer class="no-print mt-16 border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-400">
+        <p>© 2026 Gilbert Machica. Verified Professional Profile Record.</p>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
